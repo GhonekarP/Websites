@@ -1,0 +1,57 @@
+/*
+*
+* ==========================================
+* FOR CARDS
+* ==========================================
+*
+*/
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #213576, #1f307a);
+    min-height: 100vh;
+}
+.cardsig{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 0;
+}
+.text {
+    padding: 10px;
+    
+}
+.bg-yellow{
+    background-color: #edb705;
+    
+}
+.text{
+    padding-left: 17%;
+}
+.img-fluid{
+    width: 100px;
+    height: 100px;
+    margin-right: 280px;
+    
+    background: -webkit-linear-gradient(#5ea7eb, #438dd1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: -10%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.img-fluid .rounded1{
+    border-radius: 30% !important;
+}
+
+.img-thumbnail{
+    background: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
