@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<!--Hey! This is the original version of html files-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="cards.css">
+</head>
+<body>
 
+    <div class="container py-5">
+        <div class="row text-center text-white">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="display-4"></h1>
+                
+            </div>
+        </div>
+    </div><!-- End -->
+    
+    
+    <div class="container">
+        <div class="row text-center">
+    
+            <!-- Team item -->
+            <div class="col-xl-4 cardsig">
+                <div class="bg-yellow shadow-sm" style="border-radius: 15px;">
+                    <div class="text text-left"><h5 class="title">Doctor Consultations <br>and Lab Test</h5></div>
+                </div>
+                <img src="img/lab test.png" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" style="border-width: 3px; border-color: #edb705;">
+            </div><!-- End -->
+    
+            <!-- Team item -->
+            <div class="col-xl-4 cardsig">
+                <div class="bg-yellow shadow-sm" style="border-radius: 15px;">
+                    <div class="text text-left"><h5 class="title">Preventive Health <br>Checkups</h5></div>
+                </div>
+                <img src="img/checkup.png" alt="" width="80" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" style="border-width: 3px; border-color: #edb705;">
+            </div><!-- End -->
+    
+            <!-- Team item -->
+            <div class="col-xl-4 cardsig">
+                <div class="bg-yellow shadow-sm" style="border-radius: 15px;">
+                    <div class="text text-left"><h5 class="title"><b>Free</b><br>Teleconsultation<br></h5></div> 
+                </div>
+                <img src="img/consult.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" style="border-width: 3px; border-color: #edb705;">
+            </div><!-- End -->
+    
+            <!-- Team item -->  
+            <div class="col-xl-4 cardsig">
+                <div class="bg-yellow shadow-sm" style="border-radius: 15px;">
+                    <div class="text text-left"><h5 class="title">Health insurance <br>upto xxxx</h5></div>
+                </div>
+                <img src="img/insurance.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" style="border-width: 3px; border-color: #edb705;">
+            </div><!-- End -->
+        </div>
+    </div>
+</body>
+
+
+
+<!------support files------>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+
+</html>
